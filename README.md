@@ -44,9 +44,13 @@ To get started with the KITAAB project, follow these steps:
 ## Directory Structure
 
 kitaab/
+
 ├── static/
+
 │ └── all CSS files and Images
+
 ├── all php and html files
+
 └── kitaab.sql
 
 
