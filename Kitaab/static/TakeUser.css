@@ -1,0 +1,76 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('solv3.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.card {
+    border-radius: 20px;
+    width: 340px;
+    height: 350px;
+    background-image: linear-gradient(144deg,hwb(17 7% 0%), #deb03a 60%,#f07b28);
+    border: none;
+    position: relative;
+    margin: auto;
+    font-family: inherit;
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 1.7em;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.1em;
+    font-weight: bold;
+   }
+   
+   
+   
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #e8e8e8;
+    color: #111111;
+    font-weight: 600;
+   }
+   .card button{
+    text-decoration: none;
+    color: rgb(6, 4, 57);
+    background: #e8e8e8;
+   }
+   .card button:hover {
+    background: #080130;
+    color:white;
+   }
+   
+.info{
+  font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.1em;
+    font-family:'Times New Roman', Times, serif;
+}

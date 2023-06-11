@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Pics-1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.header {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+h1{
+    position: relative;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 160px;
+    font-size: 50px;
+    background: linear-gradient(to right, rgba(203, 31, 203, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(207, 20, 210, 0) 61%), linear-gradient(rgb(219, 100, 20) 52%, rgb(224, 246, 255) 60%, rgb(210, 173, 41) 61%);
+  /* you can change the colors based on your preference */
+  background-clip: text;
+  /*add this line, it defines how far the background should extend within an element, here we set it to text */
+  -webkit-background-clip: text;
+  /* add this line, for browsers compatibility */
+  -webkit-text-fill-color: transparent;
+}
+h2{
+    position: relative;
+    top: 20px;
+    font-size:30px;
+    font-style: italic;
+    font-family: cursive;
+}
+.request-button {
+    position: relative;
+    top: 26px;
+    right:400px;
+    appearance: button;
+    background-color: #de5911;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 12px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+   }
+   
+   .request-button:after {
+    background-clip: padding-box;
+    background-color: #e5a110;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+  .request-button:main, button:focus {
+    user-select: auto;
+   }
+   
+   .request-button:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   .request-button:disabled {
+    cursor: auto;
+   }
+   
+   .request-button:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   .request-button:active {
+    padding-bottom: 10px;
+   }
+   .request-button a{
+    text-decoration: none;
+    color:aliceblue;
+    }
+.content{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-30%);
+    text-align: center;
+    color: #fff;
+}
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+    opacity: 0.6;
+}
+
+.book-card {
+    width: 190px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.price {
+    font-weight: 500;
+}
+  
+.book-card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+  
+.book-card h2 {
+    font-size: 18px;
+    margin: 0;
+}
+  
+  .book-card p {
+    margin-top: 5px;
+  }
+.genre-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -110px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+  
+.genre-filter button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .active {
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+
+ select{
+    position: relative;
+    top: -130px;
+    width: 200px;
+    height: 30px;
+ }
+ option{
+    font-size: 20px ;
+ }

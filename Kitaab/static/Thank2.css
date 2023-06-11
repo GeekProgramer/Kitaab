@@ -1,0 +1,85 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('solv3.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  .card {
+      width: 300px;
+      height: 220px;
+      background-color: rgb(212, 170, 133);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 30px;
+      gap: 13px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+    }
+    
+    #cookieSvg {
+      width: 70px;
+      top: 50px;
+    }
+    
+    #cookieSvg g path {
+      fill: rgb(97, 81, 81);
+    }
+    
+    .cookieHeading {
+      position: relative;
+      top: 10px;
+      font-size: 1.2em;
+      font-weight: 800;
+      color: rgb(26, 26, 26);
+    }
+    
+    .cookieDescription {
+      position: relative;
+      top: -10px;
+      text-align: center;
+      font-size: 1.0em;
+      font-weight: 600;
+      color: rgb(99, 99, 99);
+    }
+    
+    .buttonContainer {
+      display: flex;
+      gap: 20px;
+      flex-direction: row;
+    }
+    
+    .acceptButton {
+      width: 80px;
+      height: 30px;
+      background-color: #7b57ff;
+      transition-duration: .2s;
+      border: none;
+      color: rgb(241, 241, 241);
+      cursor: pointer;
+      font-weight: 600;
+      border-radius: 20px;
+    }
+    .acceptButton a{
+      text-decoration: none;
+      color: aliceblue;
+    }
+    
+    
+    
+    .acceptButton:hover {
+      background-color: #9173ff;
+      transition-duration: .2s;
+    }
