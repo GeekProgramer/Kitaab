@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       $owner_name = $row["owner_name"];
       $owner_email = $row["owner_email"];
       $owner_contact= $row["owner_number"];
-      $description = $row["dpt"];
+      $description = $row["dpt"]; 
     }
 
   } 
