@@ -58,7 +58,3 @@ kitaab/
 
 Contributions to the KITAAB project are welcome! If you have any improvements or bug fixes to suggest, please feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
