@@ -16,7 +16,6 @@ Kitaab simplifies the process of book sharing and connects donors with recipient
 * Getting Started
 * Directory Structure
 * Contributing
-* License
 
 ## Features
 
