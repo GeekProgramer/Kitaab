@@ -39,7 +39,7 @@ To get started with the KITAAB project, follow these steps:
 1. Clone the repository: `git clone https://github.com/GeekProgramer/Kitaab.git`
 2. Set up XAMPP and start the Apache and MySQL services.
 3. Import the SQL database file (`kitaab.sql`) into your MySQL database.
-4. Configure the database connection in the PHP files with your database credentials.
+4. Configure the database connection in the `kitaab.sql` with your database credentials.
 5. Open the project in a web browser.
 
 ## Directory Structure
